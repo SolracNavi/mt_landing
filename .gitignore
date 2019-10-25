@@ -1,0 +1,13 @@
+# archivos .a
+*.a
+# excluir lib.a, incluso cuando ignoramos archivos .a
+!lib.a
+# ignorar el archivo de root TODO , no el subdirectorio/TODO
+/TODO
+# ignorar todos los archivos en el directorio build/
+build/
+# ignorar archivos .txt
+#*.txt
+# directorios específicos
+images/
+
