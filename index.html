@@ -18,6 +18,9 @@
           <li><a href="#two">Quienes somos</a></li>
           <li><a href="#work">Nuestras estufas</a></li>
           <li><a href="#contact">Contacto</a></li>
+          <li>|||</li>
+          <li><a href="#blog">Blog</a></li>
+
         </ul>
       </nav>
     </header>
@@ -72,68 +75,38 @@
             nuestros usuarios. <strong>Linea económica:</strong> estufa Gótica MT construida con campana reciclada. <strong>Linea de lujo:</strong>
             estufa Gymse MT, con horno y banco.</p>
         </header>
-        <div class="content">
-          <article class="from-right"> <a href="images/MasaT%C3%A9rmica.png" class="image fit"><img
-                src="images/MasaT%C3%A9rmica.png" title="Masa Térmica" alt="Masa Térmica"></a>
-          </article>
-        </div>
         <!-- Gallery  -->
         <div class="gallery">
           <article class="from-left"> <a href="images/fulls/01.jpg" class="image fit"><img
-                src="images/thumbs/01.jpg" title="BBR 6" alt=""></a> </article>
+                src="images/thumbs/01.jpg" title="Gótica 3D" alt=""></a> </article>
           <article class="from-right"> <a href="images/fulls/02.jpg" class="image fit"><img
-                src="images/thumbs/02.jpg" title="BBR 8" alt=""></a> </article>
+                src="images/thumbs/02.jpg" title="Gótica 3D 2" alt=""></a> </article>
           <article class="from-left"> <a href="images/fulls/03.jpg" class="image fit"><img
-                src="images/thumbs/03.jpg" title="BBR 8 económica" alt=""></a> </article>
+                src="images/thumbs/03.jpg" title="Gymse MT 3D" alt=""></a> </article>
           <article class="from-right"> <a href="images/fulls/04.jpg" class="image fit"><img
-                src="images/thumbs/04.jpg" title="BBR 6 detalle" alt=""></a> </article>
+                src="images/thumbs/04.jpg" title="Gymse MT 3D" alt=""></a> </article>
           <article class="from-left"> <a href="images/fulls/05.jpg" class="image fit"><img
-                src="images/thumbs/05.jpg" title="BBR 6 detrás" alt=""></a> </article>
+                src="images/thumbs/05.jpg" title="Gymse MT" alt=""></a> </article>
           <article class="from-right"> <a href="images/fulls/06.jpg" class="image fit"><img
-                src="images/thumbs/06.jpg" title="BBR 8 detrás" alt=""></a> </article>
+                src="images/thumbs/06.jpg" title="Gymse MT" alt=""></a> </article>
         </div>
-        <h2>Contacto</h2>
-        <p>Escribinos a <strong>el.sariri@gmail.com</strong></p>
-        <p>Llamanos o mandanos un whatsapp al <strong>2944 821019</strong></p>
+        <section id="contact">
+
+        </section>
       </div>
     </section>
     <!-- Contact -->
-<!--    <section id="contact" class="main style3 secondary">
-
+    <section id="contact" class="main style1 secondary">
         <div id="contenedor">
 	        <div id="textoContacto">
-
-
-	        	<form id="formulario" name="formContacto" method="post" action="process.php" >
-		        	<label for="nombre">Nombre*:</label>
-			        <input name="name" placeholder="Introduce tu hombre" class="required" /><br />
-
-			        <label for="apellidos">Apellidos*:</label>
-			        <input name="surname" placeholder="Tus dos apellidos" class="required" /><br />
-
-			        <label for="empresa">Empresa*:</label>
-			        <input name="company" placeholder="¿Para quién trabajas?" class="required" /><br />
-
-			        <label for="departamento">Cargo/Departamento:</label>
-			        <input name="department" placeholder="¿Qué función desempeñas?" /><br />
-
-			        <label for="telefono">Teléfono:</label>
-			        <input name="phone" placeholder="¿Hablamos?" /><br />
-
-			        <label for="mail">E-mail*:</label>
-			        <input name="mail" placeholder="Podré contestarte" class="required" /><br />
-
-			        <label id="modif01" for="comentario">Comentario:</label>
-			        <textarea id="modif02" placeholder="Escribeme tu comentario aquí" name="comment"></textarea><br />
-
-			        <div id="aster" > * | Campos obligatorios</div>
-
-			        <input class="botonAcceder" type="submit" id="boton" value="Enviar" />
-		        </form>
-	-->        </div><!-- /textoContacto -->
+            <h2>Contacto</h2>
+            <p>Escribinos a <strong>el.sariri@gmail.com</strong></p>
+            <p>Llamanos o mandanos un whatsapp al <strong>2944 821019</strong></p>
+          </div><!-- /textoContacto -->
         </div><!-- /contenedor -->
     </section>
-<footer>
+
+    <footer>
     <!-- Footer -->
     <footer id="footer">
       <!-- Icons -->
@@ -162,28 +135,5 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
-    <!-- Códigos de validación para el formulario -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-	<script src="js/jquery.validate.js"></script>
-	<script src="js/jquery.form.js"></script>
-<!-- Script que llama a la validación del formulario -->
-	<script>
-		$(function(){
-			$('#formulario').validate({
-				submitHandler: function(form) {
-				    $(form).ajaxSubmit({
-					    url: 'process.php',
-					    success: function() {
-
-						    $('#textoContacto h3').hide();
-						    $('#formulario').hide();
-						    $('#textoContacto').append("<p class='thanks'>Gracias por contactar con nosotros.</p>")
-					    }
-				    });
-			    }
-			});
-		});
-	</script>
-<!-- Fin códigos de validación del formulario -->
   </body>
 </html>
