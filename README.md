@@ -1,5 +1,6 @@
-#Landing page de Masa Térmica
-###Construcción de estufas Rocket, Gymse y derivados.
+# Landing page de Masa Térmica
+
+### Construcción de estufas Rocket, Gymse y derivados.
 
 > Las estufas de masa son una tecnología antigua que debería ser reconciliada con las nuevas tecnologías. Lograr que una masa crítica de personas generen su calor en forma limpia es urgente.
 
