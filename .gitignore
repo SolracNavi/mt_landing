@@ -10,4 +10,4 @@ build/
 #*.txt
 # directorios específicos
 images/
-
+*.bak
