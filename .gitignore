@@ -11,3 +11,4 @@ build/
 # directorios específicos
 images/
 *.bak
+files/
