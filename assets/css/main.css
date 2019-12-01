@@ -950,7 +950,7 @@ input, select, textarea {
 			top: 0;
 			width: 100%;
 			height: 100%;
-			background: url("images/overlay.png");
+#			background: url("images/overlay.png");
 		}
 
 		.image img {
@@ -2035,7 +2035,6 @@ input, select, textarea {
 				background: #f5f6f7;
 			}
 
-
 		.main.dark {
 			color: #ffffff;
 		}
@@ -2230,7 +2229,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/intro.jpg");
+		background: url("images/overlay.png"), url("../../images/intro.webp");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2240,8 +2239,7 @@ input, select, textarea {
 /* One */
 
 	#one {
-		background: url("images/overlay.png"), url("../../images/one.jpg");
-/*    background: url("../../images/one.jpg"); */
+		background: url("images/overlay.png"), url("../../images/one.webp");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2250,7 +2248,7 @@ input, select, textarea {
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
+		background: url("images/overlay.png"), url("../../images/two.webp");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2297,7 +2295,122 @@ input, select, textarea {
 			}
 
 		}
+		
+		
+	/* Estilo de formulario de contacto */
+	
+#contenedor {
+	width: 500px;
+	margin:auto;
+}
 
+/*Estilos formulario*/
+#textoContacto {
+	width: 500px;
+	position: relative;
+}
 
+#textoContacto h3 {
+	font-size: 3.5em;
+	font-family: Helvetica, arial;
+	font-weight: 100;
+	-webkit-transform: rotate(-90deg); 
+	-moz-transform: rotate(-90deg);
+	
+	color:#d3e11d;
+	
+	position: absolute;
+	top: 200px;
+	left: -80px;
+}
+#formulario {
+    width:435px;
+    margin:auto;
 
- /* Empiezo a agregar estilos personalizados */
+    font-family: Helvetica, Verdana, Geneva, sans-serif;
+    font-size: .8em;
+    
+    padding:15px;
+    
+    padding-bottom: 50px;
+    padding-left:90px;
+    position: relative;
+    
+    background: url(images/content/contactoBG2.png) no-repeat left;
+}
+#formulario label{
+	display: block;
+	float:left;
+	width:175px;
+    font-weight:bold;
+    font-size:12px;
+    
+    padding-top:5px;
+    
+    position: relative;
+}
+
+label.error { 
+	width:175px;
+	margin-top:-17px;
+	
+	color:#ff0000;
+	
+	float: left;
+	
+	font-size:1em;
+}
+
+#formulario input{
+	display: block;
+	float:left;
+	width:250px;
+	margin-bottom: 7px;
+}
+
+#formulario textarea{
+	display: block;
+	float:left;
+	width:254px;
+	height: 200px;
+	margin-bottom: 5px;
+	
+	resize: none;
+}
+
+#formulario .botonAcceder{
+	width: 175px;
+	height: 30px;
+	background: #d3e11d;
+	border:none;
+	margin:auto;
+	
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 10px;
+	
+	color:#535353;
+}
+
+#formulario .botonAcceder:hover{
+	background: #535353;
+	color:#d3e11d;
+}
+
+#formulario #aster {
+	color:#ff0000;
+}
+
+#textoContacto {
+	color:#535353;
+}
+
+.thanks{
+	color:red;
+	text-align:center;
+	height:220px;
+	
+	margin-top: 100px;
+	font-size:1em;
+}
